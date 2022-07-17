@@ -17,12 +17,12 @@ Example 1 ...
 
 Example 2 ...
 
-    Library.ConnectionStringBuilder csb2 = new Library.ConnectionStringBuilder();
-    csb2["One"] = "1";
-    csb2["Two"] = "2";
-    csb2["Three"] = "3";
-    csb2.Add("Four", 4);
-    csb2.Remove("Four");
+    	Library.ConnectionStringBuilder csb2 = new Library.ConnectionStringBuilder();
+    	csb2["One"] = "1";
+    	csb2["Two"] = "2";
+    	csb2["Three"] = "3";
+    	csb2.Add("Four", 4);
+    	csb2.Remove("Four");
 
-    Console.WriteLine("Connection String {0}", csb2.ConnectionString);
+    	Console.WriteLine("Connection String {0}", csb2.ConnectionString);
 	Console.WriteLine();
