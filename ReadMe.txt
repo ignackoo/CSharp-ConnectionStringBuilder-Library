@@ -26,3 +26,5 @@ Example 2 ...
 
     	Console.WriteLine("Connection String {0}", csb2.ConnectionString);
 	Console.WriteLine();
+
+please give me some star if you will see that the library is useful, thank you
